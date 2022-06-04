@@ -16,10 +16,11 @@
 #imageLogo{
     height: 120px;
 }
-.fa-solid{
+.fas{
     font-size: 2.3rem;
     margin-right: 30px;
     align-self: center;
+    cursor: pointer;
 }
 #desktopNavbarSection{
     display: none;
@@ -55,12 +56,6 @@
     flex-direction: column;
     height: 140px;
 }
-#contactButton{
-    background: #FFFFFF;
-    color: #000000;
-    width: 50%;
-    margin-top: 20px;
-}
 #experienceButton{
     background: #5E3AEE;
     color: #FFFFFF;
@@ -69,4 +64,37 @@
 #myName{
     color: #5E3AEE;
     font-style: italic;
+}
+.card{
+    border: none;
+    width: 300px;
+    max-width: 100%;
+    height: 200px;
+    box-shadow: 0px 0px 3px #000000;
+    border-radius: 9px;
+    margin: auto;
+    margin-top: 30px;
+    background: #010221;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.card > h2{
+    text-align: center;
+    color: #fff;
+    margin-top: 20px;
+}
+
+#servicesSection > h2,p{
+    text-align: center;
+    margin-top: 30px;
+}
+#servicesSection > p{
+    margin-bottom: 30px;
+}
+.fa-laptop-code, .fa-database, .fa-terminal{
+    color: #fff;
+    font-size: 3.3rem;
+    display: block;
+    align-self: center;
 }
