@@ -21,6 +21,7 @@
     margin-right: 30px;
     align-self: center;
     cursor: pointer;
+    outline: none;
 }
 #desktopNavbarSection{
     display: none;
@@ -97,4 +98,20 @@
     font-size: 3.3rem;
     display: block;
     align-self: center;
+}
+#aboutMeSection{
+    margin-top: 50px;
+    text-align: center;
+    background: #0F1221;
+    color: #fff;
+}
+#aboutMeSection > h2{
+    padding-top: 30px;
+}
+#aboutMeImage{
+    border-radius: 50%;
+    max-width: 100%;
+    width: 250px;
+    height: auto;
+    margin-top: 50px;
 }
