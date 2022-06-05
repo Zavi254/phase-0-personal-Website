@@ -169,6 +169,7 @@ input[type="submit"]{
     padding-left: 10px;
     font-weight: bold;
 }
+/* Tablet Devices */
 @media only screen and (min-width:769px) and (max-width:1024px){
     #heroSection{
         background-image: url(../images/banner.jpg);
@@ -220,6 +221,7 @@ input[type="submit"]{
     }
     .skillCardSection{
         display: flex;
+        gap: 10px;
     }
     .card{
         cursor: pointer;
@@ -255,7 +257,8 @@ input[type="submit"]{
         background: #0D0D0D;
     }
 }
-@media only screen and (min-width:1025px) and (max-width:1440px){
+/* Laptop Devices */
+@media only screen and (min-width:1025px) and (max-width:1200px){
     #heroSection{
         background-image: url(../images/banner.jpg);
         background-size: cover;
@@ -342,5 +345,100 @@ input[type="submit"]{
     }
     form{
         background: #0D0D0D;
+        
+    }
+}
+@media only screen and (min-width:1201px) and (max-width:1440px){
+    #heroSection{
+        background-image: url(../images/banner.jpg);
+        background-size: cover;
+        background-attachment: fixed;
+        background-repeat: no-repeat;
+        color: #000000;
+        font-size: 2rem;
+        font-weight: bold;
+        /* display: flex;
+        flex-direction: column; */
+        height: 100vh;
+    }
+    #desktopNavbarSection{
+        display: block;
+    }
+    .fa-bars{
+        font-size: 1.2rem;
+        display: none;
+    }
+    #desktopNavbarSection{
+        list-style-type: none;
+        display: flex;
+        align-self: center;
+        margin-right: 50px;
+        gap: 30px;
+        font-size: 1.3rem;
+    }
+    #desktopNavbarSection > li > a{
+        text-decoration: none;
+        color: #000000;
+    }
+    #heroSectionImage{
+        display: none;
+    }
+    .myDetails{
+        margin-top: 70px;
+    }
+    .myDetails > h1{
+        font-size: 3rem;
+        color: #fff;
+    }
+    .myDetails > p, h2{
+        font-size: 2rem;
+        color: #fff;
+    }
+    #experienceButton{
+        width: 15%;
+        border-radius: 6px;
+        border: none;
+    }
+    .skillCardSection{
+        display: flex;
+    }
+    .card{
+        cursor: pointer;
+    }
+    #servicesSection{
+        padding-bottom: 70px;
+        padding-top: 100px;
+    }
+    #servicesSection > p{
+        font-size: 1.5rem;
+    }
+    .aboutMeSectionDesktop{
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        font-size: 1.5rem;
+        padding-bottom: 60px;
+        padding-top: 60px;
+        color: #fff;
+    }
+    footer h2{
+        color: #000000;
+        text-align: center;
+        margin-bottom: 60px;
+        text-decoration: underline;
+    }
+    #contactFormSection{
+        margin-top: 80px;
+        padding-bottom: 60px;
+    }
+    .desktopFormSection{
+        display: flex;
+        justify-content: space-around;
+    }
+    form{
+        background: #0D0D0D;
+        padding-top: 30px;
+        padding-bottom: 30px;
+        font-size: 1.3rem;
     }
 }
