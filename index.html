@@ -79,42 +79,48 @@
 
         <section id="aboutMeSection">
             <h2>About Me</h2>
-            <img
-             src="./assets/images/about-me-image.jpg"
-              alt="A vector image containing a developer"
-              title="Developer"
-              id="aboutMeImage"
-              />
-            <p>Hello, My name is Steven Otieno
-                I am a software development student at Moringa school.
-                I'm currently learning software Engineering.
-            </p>
+            <div class="aboutMeSectionDesktop">
+                <img
+                src="./assets/images/about-me-image.jpg"
+                alt="A vector image containing a developer"
+                title="Developer"
+                id="aboutMeImage"
+                />
+                <p>Hello, My name is Steven Otieno
+                    I am a<br> software development student at Moringa<br>school. 
+                    I'm currently learning software Engineering.
+                </p>
+            </div>
+            
         </section>
 
     </main>
 
     <footer>
         <section id="contactFormSection">
-            <div class="headingAndImageForm">
-                <h2>Contact Me</h2>
-                <img
-                 src="./assets/images/contact-me-image.jpg"
-                  alt="An email image"
-                  title="Email"
-                  id="contactMeImage"
-                  />
+            <h2>Contact Me</h2>
+            <div class="desktopFormSection">
+                <div class="headingAndImageForm">
+                    <img
+                     src="./assets/images/contact-me-image.jpg"
+                      alt="An email image"
+                      title="Email"
+                      id="contactMeImage"
+                      />
+                </div>
+                <div class="contactForm">
+                    <form action="#">
+                        <label for="name">Name</label>
+                        <input type="text" name="name" id="name">
+                        <label for="email">Email</label>
+                        <input type="email" name="email" id="email">
+                        <label for="message">Message</label>
+                        <textarea name="message" id="message" cols="30" rows="4"></textarea>
+                        <input type="submit" value="Submit">
+                    </form>
+                </div>
             </div>
-            <div class="contactForm">
-                <form action="#">
-                    <label for="name">Name</label>
-                    <input type="text" name="name" id="name">
-                    <label for="email">Email</label>
-                    <input type="email" name="email" id="email">
-                    <label for="message">Message</label>
-                    <textarea name="message" id="message" cols="30" rows="4"></textarea>
-                    <input type="submit" value="Submit">
-                </form>
-            </div>
+            
         </section>
     </footer>
 
