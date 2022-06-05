@@ -71,7 +71,7 @@
     width: 300px;
     max-width: 100%;
     height: 200px;
-    box-shadow: 0px 0px 3px #000000;
+    box-shadow: 0px 0px 3px #808080;
     border-radius: 9px;
     margin: auto;
     margin-top: 30px;
@@ -104,6 +104,8 @@
     text-align: center;
     background: #0F1221;
     color: #fff;
+    padding-bottom: 60px;
+    margin-bottom: 40px;
 }
 #aboutMeSection > h2{
     padding-top: 30px;
@@ -114,4 +116,49 @@
     width: 250px;
     height: auto;
     margin-top: 50px;
+}
+.headingAndImageForm > h2{
+    text-align: center;
+}
+#contactMeImage{
+    max-width: 100%;
+    width: 300px;
+    margin: auto;
+    height: auto;
+}
+label, input, textarea{
+    display: block;
+}
+form{
+    padding-left: 50px;
+    padding-right: 50px;
+    background: #5E3AEE;
+    margin-left: 15px;
+    border-radius: 8px;
+    margin-right: 15px;
+    padding-bottom: 15px;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+}
+
+input:not(input[type="submit"]){
+    width: 100%;
+    border: none;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding: 4px;
+    border-radius: 4px;
+}
+label[for="name"]{
+    padding-top: 20px;
+}
+textarea{
+    width: 100%;
+    margin-bottom: 20px;
+    border: none;
+    margin-top: 10px;
+}
+input[type="submit"]{
+    padding-right: 10px;
+    padding-left: 10px;
+    font-weight: bold;
 }
