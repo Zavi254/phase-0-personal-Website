@@ -16,7 +16,10 @@
 #imageLogo{
     height: 120px;
 }
-.fas{
+#navBar{
+    display: flex;
+}
+.fa-bars{
     font-size: 2.3rem;
     margin-right: 30px;
     align-self: center;
@@ -45,7 +48,7 @@
     margin:auto;
 }
 .myDetails{
-    margin-top: 120px;
+    padding-top: 100px;
 }
 .myDetails > *{
     margin-bottom: 25px;
@@ -138,6 +141,7 @@ form{
     margin-right: 15px;
     padding-bottom: 15px;
     box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+    color:#fff;
 }
 
 input:not(input[type="submit"]){
@@ -161,4 +165,96 @@ input[type="submit"]{
     padding-right: 10px;
     padding-left: 10px;
     font-weight: bold;
+}
+@media only screen and (min-width:769px) and (max-width:1024px){
+    #heroSection{
+        background-image: url(../images/banner.jpg);
+        background-size: cover;
+        background-attachment: fixed;
+        background-repeat: no-repeat;
+        color: #000000;
+        font-size: 2rem;
+        font-weight: bold;
+    }
+    #desktopNavbarSection{
+        display: block;
+    }
+    .fa-bars{
+        font-size: 1.2rem;
+        display: none;
+    }
+    #desktopNavbarSection{
+        list-style-type: none;
+        display: flex;
+        align-self: center;
+        margin-right: 50px;
+        gap: 30px;
+        font-size: 1.3rem;
+    }
+    #desktopNavbarSection > li > a{
+        text-decoration: none;
+        color: #000000;
+    }
+    #heroSectionImage{
+        display: none;
+    }
+}
+@media only screen and (min-width:1025px) and (max-width:1440px){
+    #heroSection{
+        background-image: url(../images/banner.jpg);
+        background-size: cover;
+        background-attachment: fixed;
+        background-repeat: no-repeat;
+        height: 100vh;
+        color: #000000;
+        font-size: 2rem;
+        font-weight: bold;
+        display: flex;
+        flex-direction: column;
+    }
+    #desktopNavbarSection{
+        display: block;
+    }
+    .fa-bars{
+        font-size: 1.2rem;
+        display: none;
+    }
+    #desktopNavbarSection{
+        list-style-type: none;
+        display: flex;
+        align-self: center;
+        margin-right: 50px;
+        gap: 30px;
+        font-size: 1.3rem;
+    }
+    #desktopNavbarSection > li > a{
+        text-decoration: none;
+        color: #000000;
+    }
+    #heroSectionImage{
+        display: none;
+    }
+    .myDetails{
+        align-self: center;
+        margin-top: 100px;
+    }
+    .myDetails > h1{
+        font-size: 3rem;
+        color: #fff;
+    }
+    .myDetails > p, h2{
+        font-size: 2rem;
+        color: #fff;
+    }
+    #experienceButton{
+        width: 15%;
+        border-radius: 6px;
+        border: none;
+    }
+    .skillCardSection{
+        display: flex;
+    }
+    .card{
+        cursor: pointer;
+    }
 }
