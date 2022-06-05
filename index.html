@@ -40,8 +40,7 @@
                 <p>Full-Stack Software Engineer
                 </p>
                 <div id="heroSectionBtn">
-                    <!-- <a href="#" id="contactButton" class="buttons">Hire Me</a> -->
-                    <a href="#" id="experienceButton" class="buttons">Hire Me</a>
+                    <a href="#contactFormSection" id="experienceButton" class="buttons">Hire Me</a>
                 </div>
                 
             </div>
@@ -62,17 +61,17 @@
             </p>
 
             <div class="skillCardSection">
-                    <div class="card">
+                    <div class="card" id="firstCard">
                         <i class="fas fa-laptop-code"></i>
-                        <h2>Click Me</h2>
+                        <h2>Frontend Development</h2>
                     </div>
-                    <div class="card">
+                    <div class="card" id="secondCard">
                         <i class="fas fa-database"></i>
-                        <h2>Click Me</h2>
+                        <h2>Backend Development</h2>
                     </div>
-                    <div class="card">
+                    <div class="card" id="thirdCard">
                         <i class="fas fa-terminal"></i>
-                        <h2>Click Me</h2>
+                        <h2>Terminal and Git</h2>
                     </div>     
             </div>  
         </section>
@@ -109,7 +108,7 @@
                       />
                 </div>
                 <div class="contactForm">
-                    <form action="#">
+                    <form action="#" onsubmit="return thankYou()">
                         <label for="name">Name</label>
                         <input type="text" name="name" id="name" required>
                         <label for="email">Email</label>
