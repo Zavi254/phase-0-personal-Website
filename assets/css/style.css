@@ -196,6 +196,18 @@ input[type="submit"]{
 }
 
 @media only screen and (min-width:426px) and (max-width:768px){
+    #desktopNavbarSection{
+        position: absolute;
+        background: #fff;
+        list-style-type: none;
+        position: absolute;
+        top: 100px;
+        right: 50px;
+        padding: 15px 30px 15px 30px;
+        font-size: 1.5rem;
+        box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+        display: none;
+    }
     .headingAndImageForm{
         display: flex;
         justify-content: center;
@@ -208,6 +220,18 @@ input[type="submit"]{
     }
 }
 @media only screen and (min-width:769px) and (max-width:1024px){
+    #desktopNavbarSection{
+        position: absolute;
+        background: #fff;
+        list-style-type: none;
+        position: absolute;
+        top: 100px;
+        right: 50px;
+        padding: 15px 30px 15px 30px;
+        font-size: 1.5rem;
+        box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+        display: none;
+    }
     #heroSection{
         background-image: url(../images/banner.jpg);
         background-size: cover;
@@ -394,8 +418,6 @@ input[type="submit"]{
         color: #000000;
         font-size: 2rem;
         font-weight: bold;
-        /* display: flex;
-        flex-direction: column; */
         height: 100vh;
     }
     #desktopNavbarSection{
@@ -421,7 +443,7 @@ input[type="submit"]{
         display: none;
     }
     .myDetails{
-        margin-top: 70px;
+        /* margin-top: 70px; */
     }
     .myDetails > h1{
         font-size: 3rem;
