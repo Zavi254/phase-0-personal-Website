@@ -443,14 +443,18 @@ input[type="submit"]{
         display: none;
     }
     .myDetails{
-        /* margin-top: 70px; */
+        margin-top: 20px;
     }
     .myDetails > h1{
         font-size: 3rem;
         color: #fff;
     }
-    .myDetails > p, h2{
-        font-size: 2rem;
+    .myDetails h2{
+        font-size: 3rem;
+        color: #fff;
+    }
+    .myDetails p{
+        font-size: 3rem;
         color: #fff;
     }
     #experienceButton{
