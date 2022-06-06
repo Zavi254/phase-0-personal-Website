@@ -17,7 +17,7 @@
  </ul>
 
 # Link to the live site
-    [This is the link to the website](https://github.com/Zavi254/phase-0-personal-Website)
+    https://github.com/Zavi254/phase-0-personal-Website
 
 # Copyright and license information
  MIT License
