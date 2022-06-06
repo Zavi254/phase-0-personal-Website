@@ -17,7 +17,7 @@
  </ul>
 
 # Link to the live site
-    https://github.com/Zavi254/phase-0-personal-Website
+    https://zavi254.github.io/phase-0-personal-Website/
 
 # Copyright and license information
  MIT License
